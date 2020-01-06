@@ -1,1 +1,45 @@
-// Specific CSS for your home-page
+// Specific CSS for your home
+body {
+  background-color: #FB502A;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+
+h3 {
+  line-height: 0.4;
+}
+
+a, a:hover, a:active, a:visited{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.header-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-link {
+  a {
+    font-size: 13px;
+  }
+}
