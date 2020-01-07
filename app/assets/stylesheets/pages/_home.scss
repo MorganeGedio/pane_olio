@@ -43,3 +43,41 @@ a, a:hover, a:active, a:visited{
     font-size: 13px;
   }
 }
+
+.banner {
+  position: absolute;
+  width: 100%;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.date {
+  position: relative;
+  bottom: -55px;
+  left: 70px;
+}
+
+.place {
+  position: relative;
+  bottom: -61px;
+  left: -6px;
+}
+
+.banner-img {
+  height: 450px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 0.7px;
+}
