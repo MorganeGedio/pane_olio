@@ -81,3 +81,13 @@ a, a:hover, a:active, a:visited{
   font-size: 30px;
   letter-spacing: 0.7px;
 }
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+}
+
