@@ -20,7 +20,22 @@
       <h1 class="date"> June 20 & 21, 2020 </h1>
       <h1 class="place"> Santadi, Sardinia </h1>
       <%= image_tag "bread.jpg", class: "banner-img"%>
-      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+      <ul class="navbar-menu">
+        <li class="nav-item">
+          <%= link_to "About", pages_about_path, class: "nav-link" %>
+        <li class="nav-item">
+          <%= link_to "Program", pages_programm_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Info", pages_info_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Contact", pages_contact_path, class: "nav-link" %>
+        </li>
   </div>
 
 </header>
