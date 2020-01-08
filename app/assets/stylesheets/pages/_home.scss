@@ -24,6 +24,8 @@ a, a:hover, a:active, a:visited{
   height: 150px;
 }
 
+// HEADER
+
 .header-container {
   display: flex;
   align-items: center;
@@ -44,10 +46,12 @@ a, a:hover, a:active, a:visited{
   }
 }
 
-.banner {
-  position: absolute;
-  width: 100%;
-}
+// BANNER
+
+// .banner {
+//   position: absolute;
+//   width: 100%;
+// }
 
 .box {
   width: 50%;
@@ -57,13 +61,13 @@ a, a:hover, a:active, a:visited{
 
 .date {
   position: relative;
-  bottom: -55px;
+  bottom: 516px;
   left: 70px;
 }
 
 .place {
   position: relative;
-  bottom: -61px;
+  bottom: 511px;
   left: -6px;
 }
 
@@ -71,8 +75,7 @@ a, a:hover, a:active, a:visited{
   height: 450px;
   width: 600px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
   border-radius: 2px;
 }
 
@@ -81,6 +84,26 @@ a, a:hover, a:active, a:visited{
   font-size: 30px;
   letter-spacing: 0.7px;
 }
+
+// IMG SIDE
+
+.img-side {
+  height: 300px;
+}
+
+.right-img {
+  position: relative;
+  bottom: 500px;
+  left: 807px;
+}
+
+.left-img {
+  position: relative;
+  bottom: 600px;
+  right: 636px;
+}
+
+// NAVBAR
 
 .navbar-menu {
   display: flex;

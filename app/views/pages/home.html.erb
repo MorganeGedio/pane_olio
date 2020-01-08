@@ -1,4 +1,7 @@
 <header>
+
+<!--   HEADER | LOGO
+ -->
   <div class="header-container">
     <div class="header-part">
       <h2><a href="#">IT</a>|<a href="#">EN</a></h2>
@@ -13,29 +16,37 @@
       <h3 class="header-link"><a href="#">Follow us on Instagram</a></h3>
       <h3 class="header-link"><a href="#">Become a Volunteer</a></h3>
     </div>
+
   </div>
 
+<!--   BANNER - IMAGES
+ -->
   <div class="banner">
     <div class="box">
+      <%= image_tag "bread.jpg", class: "banner-img"%>
       <h1 class="date"> June 20 & 21, 2020 </h1>
       <h1 class="place"> Santadi, Sardinia </h1>
-      <%= image_tag "bread.jpg", class: "banner-img"%>
+      <%= image_tag "right.png", class: "img-side right-img"%>
+      <%= image_tag "left.png", class: "img-side left-img"%>
     </div>
-    <div>
-      <ul class="navbar-menu">
-          <li class="nav-item">
-            <%= link_to "About", pages_about_path, class: "nav-link" %>
-          <li class="nav-item">
-            <%= link_to "Program", pages_programm_path, class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Info", pages_info_path, class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Contact", pages_contact_path, class: "nav-link" %>
-          </li>
-        </ul>
-    </div>
+  </div>
+
+<!-- NAVBAR | MENU LINKS
+ -->
+  <div>
+    <ul class="navbar-menu">
+        <li class="nav-item">
+          <%= link_to "About", pages_about_path, class: "nav-link" %>
+        <li class="nav-item">
+          <%= link_to "Program", pages_programm_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Info", pages_info_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Contact", pages_contact_path, class: "nav-link" %>
+        </li>
+      </ul>
   </div>
 
 </header>
