@@ -1,0 +1,22 @@
+.category-grid {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 20px;
+  flex-grow: 1;
+  margin: 20px auto;
+}
+
+.category-card {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 250px;
+  border-radius: 1px;
+  margin: 20px auto;
+}

@@ -1,0 +1,50 @@
+.box {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.date {
+  position: absolute;
+  bottom: 70%;
+  left: 30%;
+}
+
+.place {
+  position: absolute;
+  bottom: 65%;
+  left: 25%;
+}
+
+.banner-img {
+  height: 450px;
+  width: 600px;
+  display: block;
+  margin: 50px auto 25px auto;
+  border-radius: 2px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 0.7px;
+}
+
+// IMG SIDE
+
+.img-side {
+  height: 425px;
+}
+
+.right-img {
+  position: absolute;
+  right: 0%;
+  top: 25%;
+  animation: move-in-steps 8s infinite;
+}
+
+.left-img {
+  position: absolute;
+  left: 0%;
+  top: 15%;
+}
