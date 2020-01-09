@@ -20,3 +20,19 @@
   border-radius: 1px;
   margin: 20px auto;
 }
+
+@media(max-width: 1024px) {
+  .category-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-side {
+    display: none;
+  }
+}
+
+@media(max-width: 768px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+    width: 50%;
+  }
+}
