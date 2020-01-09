@@ -60,22 +60,22 @@ a, a:hover, a:active, a:visited{
 }
 
 .date {
-  position: relative;
-  bottom: 516px;
-  left: 70px;
+  position: absolute;
+  bottom: 70%;
+  left: 30%;
 }
 
 .place {
-  position: relative;
-  bottom: 511px;
-  left: -6px;
+  position: absolute;
+  bottom: 65%;
+  left: 25%;
 }
 
 .banner-img {
   height: 450px;
   width: 600px;
   display: block;
-  margin: 50px auto;
+  margin: 50px auto 25px auto;
   border-radius: 2px;
 }
 
@@ -88,19 +88,21 @@ a, a:hover, a:active, a:visited{
 // IMG SIDE
 
 .img-side {
-  height: 300px;
+  height: 425px;
 }
 
 .right-img {
-  position: relative;
-  bottom: 500px;
-  left: 807px;
+  position: absolute;
+  right: 0%;
+  top: 25%;
+  animation: move-in-steps 8s infinite;
 }
 
+
 .left-img {
-  position: relative;
-  bottom: 600px;
-  right: 636px;
+  position: absolute;
+  left: 0%;
+  top: 15%;
 }
 
 // NAVBAR
@@ -112,5 +114,6 @@ a, a:hover, a:active, a:visited{
   justify-content: space-between;
   width: 600px;
   margin: 0 auto;
+  padding-inline-start: 0px;
 }
 
