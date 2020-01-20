@@ -1,5 +1,33 @@
 <div class="footer">
 
-  <%= image_tag "logo_pane_olio.png", class: "logo-footer" %>
+  <div class="footer-logo">
+    <%= image_tag "logo_pane_olio.png", class: "logo-footer" %>
+  </div>
+
+  <div class="footer-links">
+
+    <ul class="footer-list">
+      <li class="footer-item">
+        <%= link_to "About", pages_about_path, class: "footer-link" %>
+      <li class="footer-item">
+        <%= link_to "Program", pages_programm_path, class: "footer-link" %>
+      </li>
+      <li class="footer-item">
+        <%= link_to "Info", pages_info_path, class: "footer-link" %>
+      </li>
+      <li class="footer-item">
+        <%= link_to "Contact", pages_contact_path, class: "footer-link" %>
+      </li>
+      <li class="footer-item">
+        <%= link_to "Volunteer", pages_contact_path, class: "footer-link" %>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="footer-socials">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
 
 </div>

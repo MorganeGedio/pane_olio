@@ -1,4 +1,20 @@
 .footer {
   background-color: #E3D1BB;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.logo-footer {
+  height: 100px;
+}
+
+a {
+  color: #FB502A;
+}
+
+.footer-list {
+  list-style: none;
+  text-align: center;
+  font-family: $headers-font;
+}
