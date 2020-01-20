@@ -1,20 +1,39 @@
 .footer {
   background-color: #E3D1BB;
+  font-family: $headers-font;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  line-height: 1;
+  height: 110px;
 }
 
 .logo-footer {
   height: 100px;
+  padding: 10px;
 }
 
-a {
-  color: #FB502A;
+.footer-item {
+    a {
+    color: #FB502A !important;
+  }
+}
+
+.footer-socials {
+    a {
+    color: #FB502A !important;
+  }
+  text-align: center;
 }
 
 .footer-list {
   list-style: none;
   text-align: center;
-  font-family: $headers-font;
+  padding-inline-start: 0px;
+  margin-bottom: 0px;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: column;
 }
