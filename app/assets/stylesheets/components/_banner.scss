@@ -33,18 +33,35 @@
 // IMG SIDE
 
 .img-side {
-  height: 425px;
+  height: 450px;
 }
 
 .right-img {
   position: absolute;
   right: 0%;
   top: 25%;
-  animation: move-in-steps 8s infinite;
 }
 
 .left-img {
   position: absolute;
   left: 0%;
   top: 15%;
+}
+
+.slide-in {
+  opacity: 0;
+}
+
+// .right-img.slide-in {
+//   transform: translateX(30%);
+// }
+
+// .left-img.slide-in {
+//   transform: translateX(-30%);
+// }
+
+.active {
+  opacity: 1;
+  // transform: translateX(0%);
+  transition: all 7s;
 }
